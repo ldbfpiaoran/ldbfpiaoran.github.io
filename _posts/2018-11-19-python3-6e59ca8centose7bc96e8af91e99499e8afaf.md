@@ -4,8 +4,6 @@ title: python3.6在centos编译错误
 date: 2018-11-19T13:47:49+00:00
 author: bfpiaoran
 layout: post
-guid: http://www.cuijianxiong.top/?p=301
-permalink: /?p=301
 categories:
   - 未分类
 ---

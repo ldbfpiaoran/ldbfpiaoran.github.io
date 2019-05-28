@@ -4,8 +4,6 @@ title: '使用frida  hook重载函数'
 date: 2018-11-28T19:14:16+00:00
 author: bfpiaoran
 layout: post
-guid: http://www.cuijianxiong.top/?p=320
-permalink: /?p=320
 categories:
   - 未分类
 ---

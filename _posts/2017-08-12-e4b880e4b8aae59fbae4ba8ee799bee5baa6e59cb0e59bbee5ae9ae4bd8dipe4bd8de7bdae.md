@@ -4,8 +4,6 @@ title: 一个基于百度地图定位ip位置
 date: 2017-08-12T11:38:17+00:00
 author: bfpiaoran
 layout: post
-guid: http://www.cuijianxiong.top/?p=37
-permalink: /?p=37
 categories:
   - 未分类
 ---

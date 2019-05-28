@@ -4,8 +4,6 @@ title: docker 容器下 gourdscanV2
 date: 2017-08-12T11:38:57+00:00
 author: bfpiaoran
 layout: post
-guid: http://www.cuijianxiong.top/?p=40
-permalink: /?p=40
 categories:
   - 未分类
 ---

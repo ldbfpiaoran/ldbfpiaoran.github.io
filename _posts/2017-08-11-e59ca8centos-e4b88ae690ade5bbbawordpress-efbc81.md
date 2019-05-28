@@ -4,8 +4,6 @@ title: 在centos 上搭建wordpress ！
 date: 2017-08-11T13:13:22+00:00
 author: bfpiaoran
 layout: post
-guid: http://123.207.248.66/?p=15
-permalink: /?p=15
 categories:
   - 未分类
 ---

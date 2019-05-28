@@ -4,8 +4,6 @@ title: 从来都是在自欺欺人
 date: 2018-10-14T01:13:42+00:00
 author: bfpiaoran
 layout: post
-guid: http://www.cuijianxiong.top/?p=276
-permalink: /?p=276
 categories:
   - 未分类
 ---

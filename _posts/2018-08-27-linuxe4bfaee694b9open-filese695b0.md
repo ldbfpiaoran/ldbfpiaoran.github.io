@@ -4,8 +4,6 @@ title: linux修改open files数
 date: 2018-08-27T11:23:52+00:00
 author: bfpiaoran
 layout: post
-guid: http://www.cuijianxiong.top/?p=239
-permalink: /?p=239
 categories:
   - 未分类
 ---

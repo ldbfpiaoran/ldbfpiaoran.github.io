@@ -4,8 +4,6 @@ title: 基于Python3 开发的iis日志审计
 date: 2017-08-12T11:48:18+00:00
 author: bfpiaoran
 layout: post
-guid: http://www.cuijianxiong.top/?p=59
-permalink: /?p=59
 categories:
   - 未分类
 ---

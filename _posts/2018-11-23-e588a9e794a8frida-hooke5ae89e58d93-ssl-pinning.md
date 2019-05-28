@@ -4,8 +4,6 @@ title: 利用frida hook安卓 SSL Pinning
 date: 2018-11-23T17:18:42+00:00
 author: bfpiaoran
 layout: post
-guid: http://www.cuijianxiong.top/?p=313
-permalink: /?p=313
 categories:
   - 未分类
 ---
