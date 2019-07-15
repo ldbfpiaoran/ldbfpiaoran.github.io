@@ -1,0 +1,53 @@
+---
+id: 386
+title: 路径差异化可能引发一些安全问题(续)
+date: 2019-07-15T11:05:17+00:00
+author: bfpiaoran
+layout: post
+categories:
+  - 未分类
+---
+
+最近好忙  有时间优化下java的技术栈，java代码也看了好多了，抽空学下注解
+
+
+@GetMapping  
+@PostMapping  
+顾名思义接收get  post请求
+
+@RequestMapping   地址映射  
+
+@Controller    这个方法要配合注解@ResponseBody使用    
+
+@RestController   相当于@Controller+@ResponseBody 返回json数据  不需要@ResponseBody了 但是不能返回html jsp了
+敏捷开发  
+
+
+@Reference @service  dubbo 前者b表明使用服务端 后者声明服务  
+
+
+@validated  
+用来效验数据 需要在bean上声明   
+
+效验常用注解如下  其实看单词含义一看就能看明白  
+@AssertFalse 校验false  
+@AssertTrue 校验true  
+@DecimalMax(value=,inclusive=) 小于等于value，  
+inclusive=true,是小于等于  
+@DecimalMin(value=,inclusive=) 与上类似  
+@Max(value=) 小于等于value  
+@Min(value=) 大于等于value  
+@NotNull  检查Null  
+@Past  检查日期  
+@Pattern(regex=,flag=)  正则  
+@Size(min=, max=)  字符串，集合，map限制大小  
+@Validate 对po实体类进行校验  
+
+当然也可以在方法接收参数做效验  比如
+
+`
+public Result<Object> test(@RequestParam("id") @NotNull Long id)
+`  
+@RequestParam  绑定参数  
+`@RequestParam((value="userId",defaultValue="1")`  
+
