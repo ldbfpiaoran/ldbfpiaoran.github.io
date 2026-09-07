@@ -5,7 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ site.description }}">
     <meta name="keyword"  content="{{ site.keyword }}">
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f6f7f9">
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0d1117">
     <link rel="shortcut icon" href="{{ site.baseurl }}/img/favicon.ico">
+
+    <!-- 主题初始化:必须在 CSS 加载前执行,避免暗色模式闪白 -->
+    <script>
+        (function () {
+            try {
+                var t = localStorage.getItem('theme');
+                if (t === 'dark' || t === 'light') {
+                    document.documentElement.classList.add(t);
+                }
+            } catch (e) { /* ignore */ }
+        })();
+    </script>
 
     <title>{% if page.title %}{{ page.title }} - {{ site.SEOTitle }}{% else %}{{ site.SEOTitle }}{% endif %}</title>
 
@@ -20,10 +34,13 @@
     <!-- Pygments Github CSS -->
     <link rel="stylesheet" href="{{ "/css/syntax.css" | prepend: site.baseurl }}">
 
+    <!-- Modern polish layer (2026) -->
+    <link rel="stylesheet" href="{{ "/css/modern.css" | prepend: site.baseurl }}">
+
     <!-- Custom Fonts -->
     <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
     <!-- Hux change font-awesome CDN to qiniu -->
-    <link href="http://cdn.staticfile.org/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://cdn.staticfile.org/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
 
     <!-- Hux Delete, sad but pending in China

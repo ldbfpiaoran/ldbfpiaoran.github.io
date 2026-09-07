@@ -1,11 +1,11 @@
 # Site settings
 title: 北风飘然
-SEOTitle: 北风飘然 | Your Blog
-header-img: img/home-bg.jpg
+SEOTitle: 北风飘然 | 安全测试与开发
+header-img: img/hero-bg.svg
 email: bfpiaoran@qq.com
-description: ""
-keyword: ""
-url: "http://www.cuijianxiong.top"              # your host, for absolute URL
+description: "北风飘然的个人博客 —— 安全测试、开发与折腾记录"
+keyword: "安全测试,渗透测试,Web安全,Python,安全研究"
+url: "https://www.cuijianxiong.top"              # your host, for absolute URL
 baseurl: "/"         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
@@ -31,7 +31,7 @@ anchorjs: true                          # if you want to customize anchor. check
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 
 
 
@@ -48,11 +48,6 @@ kramdown:
 # Disqus settings
 #disqus_username: _your_disqus_short_name_
 
-# Duoshuo settings
-duoshuo_username: blog
-# Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: true                     # set to false if you want to use Comment without Sharing
-
 
 
 
@@ -65,7 +60,7 @@ ga_domain: www.cuijianxiong.top
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "安全测试 开发"
+sidebar-about-description: "安全测试 · 开发"
 sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
