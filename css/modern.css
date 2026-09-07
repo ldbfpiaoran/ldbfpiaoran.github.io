@@ -83,7 +83,10 @@ html.dark {
 }
 
 /* ---------- 基础 ---------- */
+/* 仓库自带 bootstrap 3.4 把根字号设为 10px,导致所有 rem 值缩小 37.5%,
+   这里恢复浏览器默认 16px(全站无其他 rem 依赖,已核实) */
 html {
+    font-size: 100%;
     scroll-behavior: smooth;
     scroll-padding-top: 80px;
 }
@@ -434,8 +437,8 @@ a:focus-visible {
 
 /* ---------- 文章排版 ---------- */
 .post-container p {
-    font-size: 1.13rem;
-    line-height: 1.95;
+    font-size: 1.25rem;
+    line-height: 2.0;
     letter-spacing: 0.015em;
     margin: 1.35em 0;
     color: var(--text);
@@ -449,7 +452,7 @@ a:focus-visible {
 }
 
 .post-container h2 {
-    font-size: 1.62rem;
+    font-size: 1.72rem;
     margin-top: 2.3em;
     margin-bottom: 1em;
     padding-bottom: 0.35em;
@@ -457,13 +460,13 @@ a:focus-visible {
 }
 
 .post-container h3 {
-    font-size: 1.32rem;
+    font-size: 1.42rem;
     margin-top: 1.9em;
     margin-bottom: 0.85em;
 }
 
 .post-container h4 {
-    font-size: 1.12rem;
+    font-size: 1.2rem;
     margin-top: 1.6em;
 }
 
@@ -473,7 +476,8 @@ a:focus-visible {
 }
 
 .post-container li {
-    line-height: 1.9;
+    font-size: 1.25rem;
+    line-height: 1.95;
     margin: 0.4em 0;
     color: var(--text);
 }
@@ -523,12 +527,12 @@ a:focus-visible {
     margin: 1.6em 0;
     color: var(--text-soft);
     font-style: normal !important;
-    font-size: 0.98rem;
+    font-size: 1.15rem;
 }
 
 .post-container blockquote p {
     margin: 0.5em 0;
-    font-size: 0.98rem;
+    font-size: 1.15rem;
     color: var(--text-soft);
     font-style: normal !important;
 }
@@ -565,8 +569,8 @@ code, pre {
     border: 1px solid var(--code-border) !important;
     border-radius: 12px !important;
     padding: 42px 22px 18px !important;
-    font-size: 0.95rem;
-    line-height: 1.7;
+    font-size: 1rem;
+    line-height: 1.75;
     box-shadow: var(--card-shadow);
     -webkit-overflow-scrolling: touch;
 }
@@ -666,6 +670,7 @@ figure.highlight {
 .post-container table.table th,
 .post-container table.table td {
     padding: 10px 16px;
+    font-size: 1.02rem;
 }
 
 .post-container table.table tbody tr:last-child td {
