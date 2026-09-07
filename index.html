@@ -7,6 +7,7 @@ description: "安全测试 · 开发 · 折腾记录"
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">
+            {% if post.pinned %}<span class="pin-badge">&#128204;</span>{% endif %}
             {{ post.title }}
         </h2>
         {% if post.subtitle %}

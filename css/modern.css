@@ -323,6 +323,20 @@ a:focus-visible {
     border-color: color-mix(in srgb, var(--accent) 30%, transparent);
 }
 
+.post-preview > a > .post-title .pin-badge {
+    display: inline-block;
+    margin-right: 8px;
+    padding: 1px 10px;
+    border-radius: 999px;
+    background: var(--accent-soft);
+    border: 1px solid color-mix(in srgb, var(--accent) 35%, transparent);
+    color: var(--accent);
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.7;
+    vertical-align: 3px;
+}
+
 .post-preview > a > .post-title {
     font-size: 1.42rem;
     font-weight: 650;
